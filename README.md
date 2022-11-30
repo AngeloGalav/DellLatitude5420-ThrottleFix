@@ -1,6 +1,7 @@
 # Throttle Fixer for Dell Latitude 5420 laptops
 
 Simple bash script to solve throttling in caused by `thermald` in Dell Latitude 5420 laptops using Linux. 
+The CPU of these laptops goes down to 400 mhz or 1800 mhz. 
 As of December 2022, Dell still hasn't solved this issue, and thus the CPU still occasionally throttles. 
 On my Latitude 5420 using Manjaro, using the kernel version 5.18-rc1 does not solve this issue...
 
