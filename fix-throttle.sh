@@ -1,0 +1,14 @@
+#!/bin/bash
+sudo rmmod intel_rapl_msr
+sudo rmmod processor_thermal_device_pci_legacy
+sudo rmmod processor_thermal_device
+sudo rmmod processor_thermal_rapl
+sudo rmmod intel_rapl_common
+sudo rmmod intel_powerclamp
+
+sudo modprobe intel_powerclamp
+sudo modprobe intel_rapl_common
+sudo modprobe processor_thermal_rapl
+sudo modprobe processor_thermal_device
+sudo modprobe processor_thermal_device_pci_legacy
+sudo modprobe intel_rapl_msr
