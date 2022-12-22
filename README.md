@@ -1,7 +1,7 @@
 # Throttle Fixer for Dell Latitude 5420 laptops
 
 > **Warning**
-> Upgrading to kernel 5.19.17-2 on Manjaro KDE Linux fixes this issue, thus making this script obsolete.
+> Upgrading to kernel 5.19.17-2 on Manjaro KDE Linux __fixes this issue__, thus making this script obsolete.
 
 Simple bash script to solve throttling in caused by `thermald` in Dell Latitude 5420 laptops using Linux. 
 The CPU of these laptops goes down to 400 mhz or 1800 mhz. 
